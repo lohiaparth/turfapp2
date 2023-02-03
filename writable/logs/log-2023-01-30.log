@@ -1,0 +1,66 @@
+CRITICAL - 2023-01-30 07:06:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Validation/Rules.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\Rules->is_unique('parth.r.lohia@gmail.com', 'user_email', [...], null, 'email')
+ 5 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'parth.r.lohia@gmail.com', [...], [...])
+ 6 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH/Controllers/Register.php(28): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->save()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:35:29 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:35:34 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:35:53 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:36:04 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:36:19 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-30 13:36:21 --> Undefined property: App\Controllers\Register::$load
+in APPPATH/Controllers/Register.php on line 13.
+ 1 APPPATH/Controllers/Register.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Register::$load', 'APPPATH/Controllers/Register.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
